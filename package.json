@@ -10,7 +10,7 @@
     "lint:fix": "eslint . --fix",
     "preview": "vite preview",
     "postinstall": "npx simple-git-hooks",
-    "sizecheck": "npx vite-bundle-visualizer"
+    "sizecheck": "npx vite-bundle-visualizer -o ./stats.html"
   },
   "dependencies": {
     "i18next": "^23.11.1",

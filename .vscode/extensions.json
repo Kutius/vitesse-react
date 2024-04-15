@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "antfu.unocss",
+    "csstools.postcss",
+    "dbaeumer.vscode-eslint",
+    "lokalise.i18n-ally",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
