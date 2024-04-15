@@ -1,0 +1,7 @@
+{
+  "Welcome to React": "Bienvenido a React y react-i18next",
+  "layout": {
+    "header": "这是一个标题"
+  },
+  "language": "语言"
+}
