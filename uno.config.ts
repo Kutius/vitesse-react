@@ -1,9 +1,9 @@
 import {
   defineConfig,
-  presetTypography,
-  presetWebFonts,
-  presetUno,
   presetIcons,
+  presetTypography,
+  presetUno,
+  presetWebFonts,
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'

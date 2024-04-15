@@ -8,7 +8,7 @@ export default function TheFooter() {
   }
 
   return (
-    <nav className="flex gap-4 mt-6 justify-center text-xl">
+    <nav className="mt-6 flex justify-center gap-4 text-xl">
       <Link to="/">Go</Link>
       <Link onClick={toggleLocales}>{t('language')}</Link>
     </nav>

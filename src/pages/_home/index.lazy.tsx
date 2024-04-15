@@ -10,10 +10,14 @@ function Index() {
   return (
     <div>
       <div className="text-4xl">
-        <div i-carbon-campsite inline-block />
+        <div className="i-carbon-campsite inline-block" />
       </div>
       <p>
-        <a rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank">
+        <a
+          rel="noreferrer"
+          href="https://github.com/antfu/vitesse"
+          target="_blank"
+        >
           Vitesse
         </a>
       </p>
