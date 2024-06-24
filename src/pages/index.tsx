@@ -1,10 +1,4 @@
-import { createLazyFileRoute } from '@tanstack/react-router'
-
-export const Route = createLazyFileRoute('/_home/')({
-  component: Index,
-})
-
-function Index() {
+export default function Index() {
   const { t } = useTranslation()
 
   return (

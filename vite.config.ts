@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 import React from '@vitejs/plugin-react-swc'
 import Unocss from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
-import { TanStackRouterVite } from '@tanstack/router-vite-plugin'
+import Pages from 'vite-plugin-pages'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -19,8 +19,6 @@ export default defineConfig({
       imports: ['react', 'react-i18next'],
       dts: 'src/auto-imports.d.ts',
     }),
-    TanStackRouterVite({
-      routesDirectory: './src/pages',
-    }),
+    Pages(),
   ],
 })

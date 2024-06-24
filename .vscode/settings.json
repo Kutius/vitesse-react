@@ -1,11 +1,7 @@
 {
-  "i18n-ally.localesPaths": [
-    "locales"
-  ],
-  "i18n-ally.keystyle": "nested",
-  "i18n-ally.displayLanguage": "zh",
   // Enable the ESlint flat config support
-  "eslint.experimental.useFlatConfig": true,
+  // (remove this if your ESLint extension above v3.0.5)
+  "eslint.useFlatConfig": true,
 
   // Disable the default formatter, use eslint instead
   "prettier.enable": false,
@@ -44,6 +40,14 @@
     "jsonc",
     "yaml",
     "toml",
-    "astro"
+    "xml",
+    "gql",
+    "graphql",
+    "astro",
+    "css",
+    "less",
+    "scss",
+    "pcss",
+    "postcss"
   ]
 }
